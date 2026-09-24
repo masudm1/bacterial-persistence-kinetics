@@ -1,0 +1,3 @@
+condition,n_lineages,n_events,n_censored,mean_lag_h,median_lag_h,inverse_mean_rate_h-1,bootstrap_rate_ci_lower,bootstrap_rate_ci_upper,bootstrap_method,weibull_shape,weibull_scale_h
+ampicillin,6,6,0,3.875,2.0,0.25806451612903225,0.13667692523725383,0.9836065573770493,exact enumeration of all n^n resamples,0.8251406950450477,3.5174173594089186
+ciprofloxacin,18,18,0,10.499999999999998,8.6,0.09523809523809526,0.0784313725490196,0.11857707509881422,Monte Carlo percentile bootstrap (100000 resamples),2.4185891149681673,11.900246312838469

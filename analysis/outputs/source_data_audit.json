@@ -1,0 +1,62 @@
+{
+  "umetani_observed_rows": {
+    "ampicillin": 60,
+    "ciprofloxacin": 36
+  },
+  "umetani_replicate_counts_by_time": {
+    "ampicillin": [
+      6,
+      5,
+      6,
+      6,
+      6,
+      6,
+      3,
+      6,
+      6,
+      3,
+      4,
+      3
+    ],
+    "ciprofloxacin": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ]
+  },
+  "classification_rows": {
+    "ampicillin": {
+      "exposed_cells": 377167.8211,
+      "non_growing": 0.0,
+      "growing": 6.0,
+      "indistinguishable": 0.0,
+      "total_classified_persisters": 6.0,
+      "total_fraction": 1.5908037919303823e-05
+    },
+    "ciprofloxacin": {
+      "exposed_cells": 197954.0,
+      "non_growing": 0.0,
+      "growing": 29.0,
+      "indistinguishable": 3.0,
+      "total_classified_persisters": 32.0,
+      "total_fraction": 0.00016165371753033532
+    }
+  },
+  "peyrusson_observed_rows": 15,
+  "peyrusson_replicate_counts_by_time": [
+    3,
+    3,
+    3,
+    3,
+    3
+  ]
+}

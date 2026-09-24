@@ -1,0 +1,23 @@
+{
+  "source_workbook": "41467_2020_15966_MOESM3_ESM.xlsx",
+  "source_sha256": "053b1a000e22c4dd970bea9a8daec08b90b6e62c35bf19bb9c718df7c007065c",
+  "analysis_data_sha256": "b763a2eb29af3a5b52f68375d1d0214abb209f427c2d33661b27e21ef04a06af",
+  "initial_fraction": 0.001,
+  "parameter_bounds": {
+    "D_abs": [
+      0.001,
+      30.0
+    ],
+    "alpha": [
+      1e-08,
+      20.0
+    ],
+    "beta": [
+      1e-08,
+      20.0
+    ]
+  },
+  "profile_lr": "n*log(SSE/SSE_min); conditional iid-Gaussian diagnostic",
+  "cluster_bootstrap": "all unordered biological-replicate count configurations with exact multinomial probabilities",
+  "warning": "Only three biological replicates and five time points are available; intervals are coarse and conditional on the fixed initial fraction."
+}

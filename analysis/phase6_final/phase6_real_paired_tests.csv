@@ -1,0 +1,11 @@
+dataset,condition,initial_condition_scenario,metric,method_1,method_2,W,p_two_sided,median_paired_difference_method1_minus_method2,n_pairs,p_holm
+Peyrusson,peyrusson_extracellular_oxacillin,assumed_0.1pct,test_rmse_observed_log,PINN,NLLS,1.0,0.25,1.6647811305185742,4,1.0
+Peyrusson,peyrusson_extracellular_oxacillin,assumed_0.1pct,test_rmse_observed_log,PINN,NN,4.0,0.875,-0.00734813482583363,4,1.0
+Umetani,ampicillin,assumed_0.1pct,test_rmse_observed_log,PINN,NLLS,15.0,0.232421875,0.03358431274098611,10,1.0
+Umetani,ampicillin,assumed_0.1pct,test_rmse_observed_log,PINN,NN,5.0,0.01953125,0.15785184202778302,10,0.17578125
+Umetani,ampicillin,classification_anchor,test_rmse_observed_log,PINN,NLLS,2.0,0.005859375,-0.13415865096652152,10,0.05859375
+Umetani,ampicillin,classification_anchor,test_rmse_observed_log,PINN,NN,13.0,0.16015625,-0.0038795203018298086,10,1.0
+Umetani,ciprofloxacin,assumed_0.1pct,test_rmse_observed_log,PINN,NLLS,23.0,0.6953125,-0.01891856929213187,10,1.0
+Umetani,ciprofloxacin,assumed_0.1pct,test_rmse_observed_log,PINN,NN,14.0,0.193359375,0.036701858464713744,10,1.0
+Umetani,ciprofloxacin,classification_anchor,test_rmse_observed_log,PINN,NLLS,11.0,0.10546875,-0.0658937555672659,10,0.84375
+Umetani,ciprofloxacin,classification_anchor,test_rmse_observed_log,PINN,NN,20.0,0.4921875,-0.007608493461084664,10,1.0

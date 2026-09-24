@@ -1,0 +1,65 @@
+{
+  "frozen_rule_sha256": "7fe456a139bdd337c4ea52ff50758ac0b7e92ac16da18e70424f2c30b0252f44",
+  "frozen_candidate": "piecewise_multistart",
+  "noise_model": "deterministic ODE total plus independent Gaussian measurement error with SD 10% of latent total",
+  "conditions": [
+    [
+      0.0001,
+      0.1
+    ],
+    [
+      0.001,
+      0.1
+    ],
+    [
+      0.01,
+      0.1
+    ],
+    [
+      0.05,
+      0.1
+    ],
+    [
+      0.1,
+      0.1
+    ],
+    [
+      0.1,
+      0.01
+    ]
+  ],
+  "trials_per_condition": 5,
+  "selection": "minimum composite training objective; held-out observations never consulted",
+  "seeds": [
+    120001,
+    120002,
+    120003,
+    120004,
+    120005,
+    120101,
+    120102,
+    120103,
+    120104,
+    120105,
+    120201,
+    120202,
+    120203,
+    120204,
+    120205,
+    120301,
+    120302,
+    120303,
+    120304,
+    120305,
+    120401,
+    120402,
+    120403,
+    120404,
+    120405,
+    120501,
+    120502,
+    120503,
+    120504,
+    120505
+  ]
+}

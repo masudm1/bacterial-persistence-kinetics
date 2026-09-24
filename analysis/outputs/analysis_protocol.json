@@ -1,0 +1,48 @@
+{
+  "synthetic_noise_model": "Y_i = max(X_i + epsilon_i, 1), epsilon_i independently Normal(0, (noise_fraction * X_i)^2); X_i is the deterministic ODE total",
+  "synthetic_process_noise": false,
+  "split_unit": "unique time point",
+  "time_zero_forced_into_training": true,
+  "real_objective": "unweighted sum of squared natural-log residuals over observed replicate-level relative abundances",
+  "ampicillin_source_columns": "B:G (six biological replicate columns)",
+  "missing_value_policy": "retain as missing; no imputation",
+  "ampicillin_counts_by_time": [
+    6,
+    5,
+    6,
+    6,
+    6,
+    6,
+    3,
+    6,
+    6,
+    3,
+    4,
+    3
+  ],
+  "ciprofloxacin_counts_by_time": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "neural_epochs": 2500,
+  "pinn_lbfgs_steps": 250,
+  "pinn_data_weight": 0.3,
+  "measured_fraction_calculations": {
+    "ciprofloxacin": "32 / 197954",
+    "ampicillin": "6 / 377167.8211"
+  },
+  "measured_fractions": {
+    "ciprofloxacin": 0.00016165371753033532,
+    "ampicillin": 1.5908037919303823e-05
+  }
+}

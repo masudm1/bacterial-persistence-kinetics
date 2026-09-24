@@ -1,0 +1,4 @@
+condition,parameter,point_estimate,bootstrap_median,percentile_2.5,percentile_97.5,profile_status,interval_interpretable,n_exact_configurations,total_probability,interpretation_note
+peyrusson_extracellular_oxacillin,D,-2.1810819134648227,-2.181085396582387,-2.269377003368923,-2.065586242301129,two_sided_on_grid,True,10,1.0000000000000004,conditional on the fixed 0.1% initial fraction and three empirical biological replicates
+peyrusson_extracellular_oxacillin,alpha,0.041392784963415,0.04139300895552486,0.02027649464732938,0.07147528848233854,two_sided_on_grid,True,10,1.0000000000000004,conditional on the fixed 0.1% initial fraction and three empirical biological replicates
+peyrusson_extracellular_oxacillin,beta,0.2131675523732255,0.2131677803793226,0.19773380438721203,0.23419126750385896,two_sided_on_grid,True,10,1.0000000000000004,conditional on the fixed 0.1% initial fraction and three empirical biological replicates

@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this code or its processed outputs, please cite the accompanying manuscript and this software release."
+title: "Bacterial persistence kinetics: analysis and reproducibility package"
+type: software
+authors:
+  - family-names: Mondol
+    given-names: "Md Masud"
+  - family-names: Pabel
+    given-names: Shahrear
+  - family-names: Islam
+    given-names: "Md Shahidul"
+  - family-names: Wang
+    given-names: Jin
+version: 1.0.0
+date-released: 2026-09-24
+license: MIT
+keywords:
+  - bacterial persistence
+  - parameter estimation
+  - physics-informed neural networks
+  - nonlinear least squares
+  - identifiability
+  - ordinary differential equations
+

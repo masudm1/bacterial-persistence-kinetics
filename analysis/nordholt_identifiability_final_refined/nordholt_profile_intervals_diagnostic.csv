@@ -1,0 +1,10 @@
+condition,parameter,threshold,interpretation,lower,upper,lower_crossed,upper_crossed,status
+nordholt_bac,D_abs,3.841458820694124,conditional iid-Gaussian diagnostic only,42.71002597603642,69.31485600571014,True,True,two_sided_on_grid
+nordholt_bac,alpha,3.841458820694124,conditional iid-Gaussian diagnostic only,9.999999999999982e-09,0.9696282684597429,False,True,lower_not_crossed
+nordholt_bac,beta,3.841458820694124,conditional iid-Gaussian diagnostic only,4.01437638162372,16.761528551538046,True,True,two_sided_on_grid
+nordholt_ddac,D_abs,3.841458820694124,conditional iid-Gaussian diagnostic only,64.18516365169648,73.12557307993892,True,True,two_sided_on_grid
+nordholt_ddac,alpha,3.841458820694124,conditional iid-Gaussian diagnostic only,9.999999999999982e-09,0.07770445276485623,False,True,lower_not_crossed
+nordholt_ddac,beta,3.841458820694124,conditional iid-Gaussian diagnostic only,22.223300137933816,30.909436582938277,True,True,two_sided_on_grid
+nordholt_h2o2,D_abs,3.841458820694124,conditional iid-Gaussian diagnostic only,72.2395776871047,416.8361626718337,True,True,two_sided_on_grid
+nordholt_h2o2,alpha,3.841458820694124,conditional iid-Gaussian diagnostic only,9.999999999999982e-09,999.9999999999998,False,False,neither_side_crossed
+nordholt_h2o2,beta,3.841458820694124,conditional iid-Gaussian diagnostic only,9.999999999999982e-09,999.9999999999998,False,False,neither_side_crossed

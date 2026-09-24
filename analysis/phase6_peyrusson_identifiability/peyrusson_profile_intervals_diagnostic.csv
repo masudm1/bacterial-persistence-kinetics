@@ -1,0 +1,4 @@
+condition,parameter,threshold,interpretation,lower,upper,lower_crossed,upper_crossed,status
+peyrusson_extracellular_oxacillin,D_abs,3.841458820694124,conditional iid-Gaussian diagnostic only,1.8304592105334765,2.599204827841913,True,True,two_sided_on_grid
+peyrusson_extracellular_oxacillin,alpha,3.841458820694124,conditional iid-Gaussian diagnostic only,0.0253906524690847,0.06514316315513381,True,True,two_sided_on_grid
+peyrusson_extracellular_oxacillin,beta,3.841458820694124,conditional iid-Gaussian diagnostic only,0.18790142852544311,0.2387053305144676,True,True,two_sided_on_grid

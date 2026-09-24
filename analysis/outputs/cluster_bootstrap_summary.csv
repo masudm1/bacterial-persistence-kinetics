@@ -1,0 +1,13 @@
+condition,initial_condition_scenario,initial_fraction,parameter,median,ci_2.5pct,ci_97.5pct,n_resamples,resampling_unit
+ampicillin,assumed_0.1pct,0.001,D,-4.590190897567035,-5.292044383855107,-4.050006350755221,200,biological replicate (whole observed time course)
+ampicillin,assumed_0.1pct,0.001,alpha,1.2848102618617223e-08,1.0000000573761613e-08,3.0510790198597356e-05,200,biological replicate (whole observed time course)
+ampicillin,assumed_0.1pct,0.001,beta,1.4188767533592133,1.3158112206449524,1.6185219150944217,200,biological replicate (whole observed time course)
+ampicillin,classification_anchor,1.5908037919303823e-05,D,-4.199604272349571,-4.926661156355976,-3.7798992554164204,200,biological replicate (whole observed time course)
+ampicillin,classification_anchor,1.5908037919303823e-05,alpha,0.0001995461214393528,1.0000000026817488e-08,0.0019009200438737993,200,biological replicate (whole observed time course)
+ampicillin,classification_anchor,1.5908037919303823e-05,beta,0.9141881998132326,0.5345868612255767,1.3066225860172636,200,biological replicate (whole observed time course)
+ciprofloxacin,assumed_0.1pct,0.001,D,-4.525388255706523,-5.317929118955566,-3.8360495254558673,200,biological replicate (whole observed time course)
+ciprofloxacin,assumed_0.1pct,0.001,alpha,1.0000000486612416e-08,1.000000000044107e-08,2.6503308940077414e-08,200,biological replicate (whole observed time course)
+ciprofloxacin,assumed_0.1pct,0.001,beta,0.5441103775776698,0.4334975962766281,0.640659713524138,200,biological replicate (whole observed time course)
+ciprofloxacin,classification_anchor,0.00016165371753033532,D,-4.342954815596705,-5.050791873825602,-3.681234317842408,200,biological replicate (whole observed time course)
+ciprofloxacin,classification_anchor,0.00016165371753033532,alpha,0.0013806530870528401,0.0007474058565603699,0.001722174794052234,200,biological replicate (whole observed time course)
+ciprofloxacin,classification_anchor,0.00016165371753033532,beta,0.4199549062517607,0.32786893839842457,0.470791901172324,200,biological replicate (whole observed time course)

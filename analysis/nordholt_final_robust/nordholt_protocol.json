@@ -1,0 +1,48 @@
+{
+  "source_file": "spectrum.03276-22-s0002(04).xlsx",
+  "source_sha256": "562fdac411d34a5794dc057ebb034259bcbecee30cd4e7d69b0c540f33318978",
+  "conditions": [
+    "nordholt_h2o2",
+    "nordholt_bac",
+    "nordholt_ddac"
+  ],
+  "replicate_definition": "biological replicates, as specified by the source publication",
+  "normalization": "each replicate divided by its own time-zero CFU/mL",
+  "fit_scale": "natural log relative abundance",
+  "zero_count_rule": "retained and flagged in audit table; excluded from log-scale fits; no imputation",
+  "split_rule": "held out by time point; all replicate rows at a time stay in one fold; time zero stays in training",
+  "initial_persister_fraction": 0.001,
+  "nlls": "differential evolution followed by bounded least-squares polishing",
+  "pinn": {
+    "same_training_rows_as_other_methods": true,
+    "exact_initial_condition": true,
+    "rate_multistart_grid": [
+      [
+        5.0,
+        1e-05,
+        0.01
+      ],
+      [
+        30.0,
+        0.001,
+        1.0
+      ],
+      [
+        100.0,
+        0.1,
+        30.0
+      ],
+      [
+        300.0,
+        1.0,
+        300.0
+      ]
+    ],
+    "selection": "minimum training objective",
+    "network_weight_seeds_per_rate_start": 3,
+    "dimensionless_physics_residual": "physical residual multiplied by final time in hours",
+    "data_weight": 0.3,
+    "epochs": 2500,
+    "lbfgs_steps": 250
+  }
+}

@@ -1,0 +1,7 @@
+condition,metric,method_1,method_2,W,p_two_sided,median_paired_difference_method1_minus_method2,n_pairs,p_holm
+nordholt_h2o2,test_rmse_observed_log,PINN,NLLS,5.0,0.3125,-0.00012206000315367893,6,0.625
+nordholt_h2o2,test_rmse_observed_log,PINN,NN,5.0,0.3125,0.5380424176072724,6,0.625
+nordholt_bac,test_rmse_observed_log,PINN,NLLS,2.0,0.09375,0.06500946127539065,6,0.5625
+nordholt_bac,test_rmse_observed_log,PINN,NN,2.0,0.09375,0.03066242496310423,6,0.5625
+nordholt_ddac,test_rmse_observed_log,PINN,NLLS,3.0,0.15625,0.026424615267788165,6,0.5625
+nordholt_ddac,test_rmse_observed_log,PINN,NN,2.0,0.09375,0.048538852886338524,6,0.5625

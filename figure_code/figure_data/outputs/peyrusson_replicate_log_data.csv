@@ -1,0 +1,16 @@
+condition,source_file,source_sheet,source_row,replicate,time_h,log10_relative_abundance,log_relative_abundance
+peyrusson_extracellular_oxacillin,41467_2020_15966_MOESM3_ESM.xlsx,Fig. 1b,3,1,0.0,0.0,0.0
+peyrusson_extracellular_oxacillin,41467_2020_15966_MOESM3_ESM.xlsx,Fig. 1b,3,2,0.0,0.0,0.0
+peyrusson_extracellular_oxacillin,41467_2020_15966_MOESM3_ESM.xlsx,Fig. 1b,3,3,0.0,0.0,0.0
+peyrusson_extracellular_oxacillin,41467_2020_15966_MOESM3_ESM.xlsx,Fig. 1b,4,1,1.0,-0.8808136,-2.02814826506642
+peyrusson_extracellular_oxacillin,41467_2020_15966_MOESM3_ESM.xlsx,Fig. 1b,4,2,1.0,-0.8808136,-2.02814826506642
+peyrusson_extracellular_oxacillin,41467_2020_15966_MOESM3_ESM.xlsx,Fig. 1b,4,3,1.0,-0.8808136,-2.02814826506642
+peyrusson_extracellular_oxacillin,41467_2020_15966_MOESM3_ESM.xlsx,Fig. 1b,5,1,3.0,-2.035716,-4.687409315169467
+peyrusson_extracellular_oxacillin,41467_2020_15966_MOESM3_ESM.xlsx,Fig. 1b,5,2,3.0,-1.880814,-4.330734279094504
+peyrusson_extracellular_oxacillin,41467_2020_15966_MOESM3_ESM.xlsx,Fig. 1b,5,3,3.0,-1.880814,-4.330734279094504
+peyrusson_extracellular_oxacillin,41467_2020_15966_MOESM3_ESM.xlsx,Fig. 1b,6,1,6.0,-2.403692,-5.534705367349044
+peyrusson_extracellular_oxacillin,41467_2020_15966_MOESM3_ESM.xlsx,Fig. 1b,6,2,6.0,-2.0679,-4.761515713802387
+peyrusson_extracellular_oxacillin,41467_2020_15966_MOESM3_ESM.xlsx,Fig. 1b,6,3,6.0,-1.801632,-4.148410986261049
+peyrusson_extracellular_oxacillin,41467_2020_15966_MOESM3_ESM.xlsx,Fig. 1b,7,1,24.0,-3.926571,-9.041263851182723
+peyrusson_extracellular_oxacillin,41467_2020_15966_MOESM3_ESM.xlsx,Fig. 1b,7,2,24.0,-3.704722,-8.530437650887087
+peyrusson_extracellular_oxacillin,41467_2020_15966_MOESM3_ESM.xlsx,Fig. 1b,7,3,24.0,-3.801632,-8.753581172249142

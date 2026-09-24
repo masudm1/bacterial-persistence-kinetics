@@ -1,0 +1,3 @@
+condition,parameterization,condition_number,corr_logalpha_logbeta,sd_logminusD,sd_logalpha,sd_logbeta
+ciprofloxacin,"log(-D), log(alpha), log(beta)",10912178876396.754,0.9289197862303578,0.05397545595426733,163202.08119155702,0.16611702911872464
+ampicillin,"log(-D), log(alpha), log(beta)",40094215498602.81,0.9448122916408371,0.04975075347190588,218114.03307590893,0.11006564534350068

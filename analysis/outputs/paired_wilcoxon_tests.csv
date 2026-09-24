@@ -1,0 +1,13 @@
+tier,metric,method_1,method_2,W,p_two_sided,median_paired_difference_method1_minus_method2,n_pairs,p_holm
+high,alpha_relative_error_pct,PINN,NLLS,6.0,0.02734375,13.81246287879217,10,0.13671875
+high,beta_relative_error_pct,PINN,NLLS,1.0,0.00390625,69.57826815270909,10,0.02734375
+high,test_rmse_observed_log,PINN,NLLS,17.0,0.322265625,0.0028190639139064055,10,0.966796875
+high,test_rmse_observed_log,PINN,NN,11.0,0.10546875,-0.019886826998588958,10,0.421875
+low,alpha_relative_error_pct,PINN,NLLS,0.0,0.001953125,19.720652474990295,10,0.0234375
+low,beta_relative_error_pct,PINN,NLLS,0.0,0.001953125,94.27429007427259,10,0.0234375
+low,test_rmse_observed_log,PINN,NLLS,0.0,0.001953125,0.016870828326826598,10,0.0234375
+low,test_rmse_observed_log,PINN,NN,26.0,0.921875,-0.0006964535434243538,10,0.966796875
+moderate,alpha_relative_error_pct,PINN,NLLS,0.0,0.001953125,18.969512513759277,10,0.0234375
+moderate,beta_relative_error_pct,PINN,NLLS,0.0,0.001953125,85.5960691561737,10,0.0234375
+moderate,test_rmse_observed_log,PINN,NLLS,2.0,0.005859375,0.015028920490163994,10,0.03515625
+moderate,test_rmse_observed_log,PINN,NN,18.0,0.375,-0.006026660569911496,10,0.966796875

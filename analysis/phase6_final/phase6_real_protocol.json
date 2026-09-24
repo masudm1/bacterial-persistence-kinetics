@@ -1,0 +1,35 @@
+{
+  "umetani_data_sha256": "80f09d320cbd6423eada1967800785f4975752a45f6004d72ef732ac2189b079",
+  "peyrusson_data_sha256": "b763a2eb29af3a5b52f68375d1d0214abb209f427c2d33661b27e21ef04a06af",
+  "selection": "minimum composite training objective; held-out observations never consulted",
+  "pinn_rate_starts": [
+    [
+      2.0,
+      1e-05,
+      0.05
+    ],
+    [
+      5.0,
+      0.001,
+      0.5
+    ],
+    [
+      10.0,
+      0.05,
+      2.0
+    ],
+    [
+      20.0,
+      0.5,
+      10.0
+    ]
+  ],
+  "network_weight_seeds_per_rate_start": 2,
+  "dimensionless_physics_residual": "physical residual multiplied by assay duration in hours",
+  "epochs": 1800,
+  "lbfgs_steps": 180,
+  "data_weight": 0.3,
+  "umetani_folds": 10,
+  "peyrusson_folds": 4,
+  "initial_conditions": "identical within each method comparison and imposed exactly for neural models"
+}

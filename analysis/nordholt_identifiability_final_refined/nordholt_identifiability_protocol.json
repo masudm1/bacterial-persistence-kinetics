@@ -1,0 +1,47 @@
+{
+  "source_workbook": "spectrum.03276-22-s0002(04).xlsx",
+  "source_sha256": "562fdac411d34a5794dc057ebb034259bcbecee30cd4e7d69b0c540f33318978",
+  "analysis_data": "nordholt_replicate_data.csv",
+  "initial_persister_fraction": 0.001,
+  "profile": {
+    "parameterization": "natural logarithm of -D, alpha, and beta",
+    "bounds_h-1": {
+      "D_abs": [
+        0.001,
+        1000.0
+      ],
+      "alpha": [
+        1e-08,
+        1000.0
+      ],
+      "beta": [
+        1e-08,
+        1000.0
+      ]
+    },
+    "broad_points_per_parameter": 61,
+    "local_points_per_parameter": 61,
+    "local_grid_relative_to_mle": [
+      0.2,
+      5.0
+    ],
+    "threshold_crossing": "linear interpolation of LR against log(parameter)",
+    "nuisance_optimization": "bounded least squares from the MLE and four broad starts",
+    "diagnostic_lr": "n*log(SSE/SSE_min), conditional on iid homoscedastic Gaussian log residuals",
+    "diagnostic_threshold": 3.841458820694124,
+    "warning": "LR intervals are diagnostic because repeated observations within biological replicates are correlated; H2O2 is also model-misspecified"
+  },
+  "cluster_bootstrap": {
+    "unit": "biological replicate",
+    "method": "all unordered cluster-count configurations enumerated exactly with multinomial probabilities",
+    "configuration_counts": {
+      "nordholt_h2o2": 126,
+      "nordholt_bac": 10,
+      "nordholt_ddac": 462
+    },
+    "interval": "weighted 2.5th and 97.5th percentiles",
+    "monte_carlo_error": "none",
+    "conditional_on_initial_fraction": true,
+    "interpretation_rule": "show an interval only when its profile is two-sided and the constant-rate ODE is adequate for inference"
+  }
+}
